@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,90 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.videocarousel {
+  height: 50% !important;
+}
+.logo{
+  height: 15px;
+}
+.navbar {
+  z-index: 99999;
+  color: white !important;
+}
+.carrousel{
+  margin-top: -154px;
+  z-index: -999999 !important;
+  
+}
+.font {
+  font-family: "Play", sans-serif;
+
+}
+
+.titleCaroussel{
+  font-family: "Play", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.textCaroussel{
+  font-family: "Play", sans-serif;
+
+}
+.mbr {
+  background-color: #c7c4c4;
+  padding: 30px;
+}
+.hoverCar {
+  width: 600px !important;
+  overflow: hidden; 
+  position: relative;
+}
+
+.hoverCar img {
+  transition: transform 0.3s ease;
+}
+
+.hoverCar:hover img {
+  transition: 0.4s;
+  transform: scale(1.1);
+  filter: brightness(50%);
+}
+.image-text {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.interieur {
+  background-color: black;
+}
+.interieurTitle {
+  color: #0744fd;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.stylo {
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 800;
+  font-style: normal;
+  color: #f7f7f7;
+  font-size: 3.5rem;
+}
+.titlecar {
+  font-size: 1.5rem;
+}
+.SelectColor{
+  height: 50px;
+  border: solid 2px black;
+  border-radius: 5%;
+  transition: 0.7s;
+}
+
+.imageConfig{
+  height: 700px;
 }
